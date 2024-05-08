@@ -70,7 +70,10 @@ main{
     border-radius: 4px;
     padding: 3%;
 }
-
+#btn{
+    background-color: blueviolet;
+    color: whitesmoke;
+}
 
 .card-button:hover{
     background-color: blueviolet;
@@ -220,11 +223,18 @@ main{
     border: 2px solid blueviolet;
 }
 .plansw-card::before{
+    position: relative;
     content: "POPULAR" ;
+   width: 100px;
     margin-top: -50px;
     margin-bottom: -70px;
+    margin-right: 0px;
+    margin-left: -40px;
+    padding: -10px;
+    padding-inline: 0px;
     color: whitesmoke;
-    font-weight: 800;
+    font-weight: 400;
+    font-size: 20px;
     background-color: blueviolet;
     border-radius: 4px;
 }
