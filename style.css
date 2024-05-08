@@ -1,0 +1,241 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+.clear{
+    clear: both;
+}
+main{
+    text-align: center;
+    padding: 20px;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    width: 100%; 
+
+}
+.choose-desc{
+    color: gray;
+}
+.choose{
+    flex-direction: column;
+    width: 100% ;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.choose-cards{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.card h4 sup{
+    font-size: large;
+}
+.card h4 i {
+    color: blueviolet;
+}
+.card h6{
+    margin-top: 10px;
+}
+.card:hover{
+    border: 2px solid blueviolet;
+}
+.card{
+    background-color: whitesmoke;
+    border-radius: 4px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 2rem;
+
+}
+.card-button{
+    color: blueviolet;
+    background-color: whitesmoke;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    padding: 3%;
+}
+
+
+.card-button:hover{
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+.card-button1{
+    color: white;
+    background-color: whitesmoke;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    border-radius: 4px;
+    padding: 3%;
+}
+
+/* plans */
+
+
+
+.plans{
+    margin-top: 70px;
+    flex-direction: column;
+    width: 80% ;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 100px;
+    
+}
+.plans-cards{
+    margin-top: 0px;
+    display: flex;
+    gap: 10px;
+    justify-content: center ;
+}
+.plans-card{
+    font-size: 2rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 300px;
+    height: 377px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-inline: 40px;
+    
+
+}
+
+.plansw-card{
+    font-size: 2rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 300px;
+    height: 377px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-inline: 50px;
+    
+}
+.plansw-card:hover{
+    border: 2px solid blueviolet;
+}
+.plans-card:hover{
+    border: 2px solid blueviolet;
+}
+.plansw-card::before{
+    content: "POPULAR" ;
+    margin-top: -50px;
+    margin-bottom: -70px;
+    color: whitesmoke;
+    font-weight: 800;
+    background-color: blueviolet;
+    border-radius: 4px;
+}
+.plans-card-button{
+   background-color: whitesmoke;
+   border: 2px solid blueviolet;
+   padding-block: 5px;
+   border-radius: 4px;
+}
+.plans-card-button:hover{
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+/* plans team */
+
+
+.plans-team{
+    margin-top: 70px;
+    flex-direction: column;
+    width: 80% ;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 100px;
+    
+}
+.plans-team-cards{
+    margin-top: 0px;
+    display: flex;
+    gap: 10px;
+    justify-content: center ;
+}
+.plans-team-card{
+    font-size: 2rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 400px;
+    height: 377px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-inline: 40px;
+    align-content: center;
+    align-items: center;
+    
+
+}
+.plans-team-card-desc{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.plansw-card{
+    font-size: 2rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 300px;
+    height: 377px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-inline: 50px;
+    
+}
+.plansw-card:hover{
+    border: 2px solid blueviolet;
+}
+.plans-team-card:hover{
+    border: 2px solid blueviolet;
+}
+.plansw-card::before{
+    content: "POPULAR" ;
+    margin-top: -50px;
+    margin-bottom: -70px;
+    color: whitesmoke;
+    font-weight: 800;
+    background-color: blueviolet;
+    border-radius: 4px;
+}
+.plans-team-card-button{
+    width: 200px;
+   background-color: whitesmoke;
+   border: 2px solid blueviolet;
+   padding-block: 5px;
+   border-radius: 4px;
+}
+.plans-team-card-button:hover{
+    background-color: blueviolet;
+    color: whitesmoke;
+}
